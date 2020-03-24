@@ -16,16 +16,12 @@ def multiply(x, y):
 def divide(x, y):
    return x / y
 
-# This function divides two numbers
-def modulodivision(x, y):
-   return x % y
-
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
-print("5.Modulo-Division")
+
 
 # Take input from the user 
 choice = input("Enter choice(1/2/3/4): ")
@@ -44,9 +40,6 @@ elif choice == '3':
 
 elif choice == '4':
    print(num1,"/",num2,"=", divide(num1,num2))
-
-elif choice == '5':
-   print(num1,"%",num2,"=", modulodivision(num1,num2))
 
 else:
    print("Invalid input")
